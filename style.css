@@ -29,7 +29,6 @@ main {
     background-color: lightgray;
     border-bottom: 2px solid  black;
     border-radius: 5px;
-    box-shadow: -4px -4px 8px greenyellow;
     display: flex;
     flex-wrap: wrap;
     height: auto;
