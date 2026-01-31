@@ -114,3 +114,46 @@ a:hover {
   color: white;
   overflow: hidden;
 }
+
+
+.promo-card {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+.promo-img {
+  width: 150px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.promo-content h2 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+}
+
+.promo-content p {
+  margin: 0 0 15px;
+  font-size: 1em;
+}
+
+.promo-btn {
+  background-color: #ffcc00;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.promo-btn:hover {
+  background-color: #ffd633;
+}
