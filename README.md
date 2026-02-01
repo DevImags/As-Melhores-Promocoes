@@ -20,9 +20,9 @@
 ```
 /
 ├── index.html
-├── estilo.css
+├── style.css
 ├── script.js
-├── ícone/
+├── icon/
 ├── googleea5549d20db5f697.html
 └── README.md
 ```
