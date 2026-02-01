@@ -41,7 +41,7 @@ a {
 }
 
 a:hover {
-  color: #ffcc00;
+  color: rgb(255, 255, 255);
 }
 
 .header nav ul {
@@ -156,4 +156,21 @@ a:hover {
 
 .promo-btn:hover {
   background-color: #ffd633;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 10px);
+  grid-gap: 5px;
+  cursor: pointer;
+  align-items: end;
+  justify-content: end;
+}
+
+.menu-grid span {
+  width: 10px;
+  height: 10px;
+  background: #333;
+  border-radius: 50%;
+  display: block;
 }
